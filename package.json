@@ -1,8 +1,8 @@
 {
-  "name": "argent-bank-api",
+  "name": "argent-bank-api-extra",
   "version": "0.0.1",
   "private": true,
-  "description": "Project #10 - Argent Bank",
+  "description": "Project #13 - Argent Bank",
   "keywords": [],
   "author": "",
   "license": "",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "dev:server": "nodemon ./server/server.js",
-    "populate-db": "node ./server/scripts/populateDatabase.js",
+    "populate-db-extra": "node ./server/scripts/populateWithExtraDatabase.js",
     "server": "node ./server/server.js"
   },
   "devDependencies": {

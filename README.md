@@ -1,6 +1,6 @@
-# Project #10 - Argent Bank API
+# Project #13 - Argent Bank API
 
-This codebase contains the code needed to run the backend for Argent Bank.
+This codebase contains the code needed to run the backend for Argent Bank **with extra data accounts and transactions**.
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ npm install
 # Start local dev server
 npm run dev:server
 
-# Populate database with two users
+# Populate database with two users, tree accounts by user and transactions
 npm run populate-db
 ```
 
@@ -43,7 +43,7 @@ Your server should now be running at http://locahost:3001 and you will now have 
 
 ## Populated Database Data
 
-Once you run the `populate-db` script, you should have two users in your database:
+Once you run the `populate-db` script, you should have **two users and tree accounts and some transactions by user** in your database:
 
 ### Tony Stark
 
@@ -58,6 +58,10 @@ Once you run the `populate-db` script, you should have two users in your databas
 - Last Name: `Rogers`,
 - Email: `steve@rogers.com`,
 - Password: `password456`
+
+### Tree Accounts by User
+
+### Some Transactions by Account
 
 ## API Documentation
 

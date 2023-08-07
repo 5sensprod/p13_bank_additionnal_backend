@@ -1,0 +1,17 @@
+[
+    {
+        "_id": "64b575b3dddba943706a800e",
+        "email": "tony@stark.com",
+        "password": "$2b$12$pHSwXYHpnKpUNLQ4lOSWdeMasemCpp66a42d8vIs064KRZzx81yO.",
+        "firstName": "Tony",
+        "lastName": "Stark"
+    },
+    {
+        "_id": "64b575b3dddba943706a800f",
+        "email": "steve@rogers.com",
+        "password": "$2b$12$Xxhn.7Z/s4ihBhnDckp0luk6gMNgn739qReYOfbcMG7LaGSbirkay",
+        "firstName": "Steves",
+        "lastName": "Rogers"
+    }
+
+]

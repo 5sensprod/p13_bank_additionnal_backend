@@ -1,0 +1,51 @@
+[
+    {
+      "_id": "64b8892ba0cf8643e4a4421d",
+      "transactions": [],
+      "user": "64b575b3dddba943706a800e",
+      "title": "Argent Bank Checking (x8349)",
+      "balance": 2082.79,
+      "description": "Available Balance"
+    },
+    {
+      "_id": "64b8892ba0cf8643e4a4421e",
+      "transactions": [],
+      "user": "64b575b3dddba943706a800e",
+      "title": "Argent Bank Savings (x6712)",
+      "balance": 10928.42,
+      "description": "Available Balance"
+    },
+    {
+      "_id": "64b8892ba0cf8643e4a4421f",
+      "transactions": [],
+      "user": "64b575b3dddba943706a800e",
+      "title": "Argent Bank Credit Card (x8349)",
+      "balance": 184.3,
+      "description": "Current Balance"
+    },
+    {
+      "_id": "64cfffc8044b951008a57a6f",
+      "transactions": [],
+      "user": "64b575b3dddba943706a800f",
+      "title": "Argent Bank Checking (x8349)",
+      "balance": 1542.53,
+      "description": "Available Balance"
+    },
+    {
+      "_id": "64cfffc8044b951008a57a70",
+      "transactions": [],
+      "user": "64b575b3dddba943706a800f",
+      "title": "Argent Bank Savings (x6712)",
+      "balance": 15421.48,
+      "description": "Available Balance"
+    },
+    {
+      "_id": "64cfffc8044b951008a57a71",
+      "transactions": [],
+      "user": "64b575b3dddba943706a800f",
+      "title": "Argent Bank Credit Card (x8349)",
+      "balance": 27.35,
+      "description": "Current Balance"
+    }
+]
+  

@@ -1,0 +1,332 @@
+[
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Banques Centrale",
+    "amount": 1000,
+    "balance": 1000,
+    "transactionType": "Electronic",
+    "category": "Deposit",
+    "notes": "Achat Cookie",
+    "account": "64b8892ba0cf8643e4a4421d"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "ABC Market",
+    "amount": -150,
+    "balance": 850,
+    "transactionType": "Electronic",
+    "category": "Shopping",
+    "notes": "Achat Cookie",
+    "account": "64b8892ba0cf8643e4a4421d"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Virement - John Doe",
+    "amount": 500,
+    "balance": 1350,
+    "transactionType": "Electronic",
+    "category": "Transfer",
+    "notes": "Remboursement pour le concert",
+    "account": "64b8892ba0cf8643e4a4421d"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Agence Immobilière du Centre",
+    "amount": -500,
+    "balance": 850,
+    "transactionType": "Manual",
+    "category": "Bills",
+    "notes": "Loyer Juillet",
+    "account": "64b8892ba0cf8643e4a4421d"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Entreprise TechCorp",
+    "amount": 1200,
+    "balance": 2050,
+    "transactionType": "Electronic",
+    "category": "Salary",
+    "notes": "Salaire du mois de juillet",
+    "account": "64b8892ba0cf8643e4a4421d"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Restaurant Le Gourmet",
+    "amount": -32.21,
+    "balance": 2017.79,
+    "transactionType": "Electronic",
+    "category": "Dining",
+    "notes": "Sortie en famille",
+    "account": "64b8892ba0cf8643e4a4421d"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Virement - Marc Dupont",
+    "amount": 65,
+    "balance": 2082.79,
+    "transactionType": "Electronic",
+    "category": "Bills",
+    "notes": "Marc m'a remboursé",
+    "account": "64b8892ba0cf8643e4a4421d"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Salary - TechCorp Solutions",
+    "amount": 4000,
+    "balance": 9000,
+    "transactionType": "Electronic",
+    "category": "Salary",
+    "notes": "Salaire du mois de juin",
+    "account": "64b8892ba0cf8643e4a4421e"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Virement - Sophie Martin",
+    "amount": 1200,
+    "balance": 10200,
+    "transactionType": "Electronic",
+    "category": "Transfer",
+    "notes": "Remboursement pour les vacances",
+    "account": "64b8892ba0cf8643e4a4421e"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Restaurant Le Bon Gourmet",
+    "amount": -150,
+    "balance": 10050,
+    "transactionType": "Electronic",
+    "category": "Dining",
+    "notes": "Dîner avec des amis",
+    "account": "64b8892ba0cf8643e4a4421e"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Amazon.fr",
+    "amount": -72.58,
+    "balance": 9977.42,
+    "transactionType": "Electronic",
+    "category": "Shopping",
+    "notes": "Achat de livres et d'électronique",
+    "account": "64b8892ba0cf8643e4a4421e"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Station-service Total",
+    "amount": -50,
+    "balance": 9927.42,
+    "transactionType": "Electronic",
+    "category": "Fuel",
+    "notes": "Plein de carburant pour le mois",
+    "account": "64b8892ba0cf8643e4a4421e"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Virement - Paul Durand",
+    "amount": 1000,
+    "balance": 10927.42,
+    "transactionType": "Electronic",
+    "category": "Transfer",
+    "notes": "Vente de mon ancien vélo",
+    "account": "64b8892ba0cf8643e4a4421e"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Retrait DAB",
+    "amount": -100,
+    "balance": 10827.42,
+    "transactionType": "Manual",
+    "category": "Withdrawal",
+    "notes": "Retrait d'argent pour des dépenses mineures",
+    "account": "64b8892ba0cf8643e4a4421e"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Gym Fitness Club",
+    "amount": -99,
+    "balance": 10728.42,
+    "transactionType": "Electronic",
+    "category": "Fitness",
+    "notes": "Abonnement mensuel à la salle de sport",
+    "account": "64b8892ba0cf8643e4a4421e"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Remboursement d'assurance",
+    "amount": 200,
+    "balance": 10928.42,
+    "transactionType": "Electronic",
+    "category": "Refund",
+    "notes": "Remboursement pour une réclamation d'assurance",
+    "account": "64b8892ba0cf8643e4a4421e"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Limite de crédit initial",
+    "amount": 1000,
+    "balance": 1000,
+    "transactionType": "Electronic",
+    "category": "Banque",
+    "notes": "c'est bon",
+    "account": "64b8892ba0cf8643e4a4421f"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "ElectroShop",
+    "amount": -200,
+    "balance": 800,
+    "transactionType": "Electronic",
+    "category": "Shopping",
+    "notes": "Achat d'un nouveau casque audio",
+    "account": "64b8892ba0cf8643e4a4421f"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Restaurant Le Petit Chef",
+    "amount": -80,
+    "balance": 720,
+    "transactionType": "Electronic",
+    "category": "Dining",
+    "notes": "Dîner d'anniversaire",
+    "account": "64b8892ba0cf8643e4a4421f"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Paiement du solde de la carte de crédit",
+    "amount": 500,
+    "balance": 1220,
+    "transactionType": "Electronic",
+    "category": "Payment",
+    "notes": "Paiement partiel du solde de la carte",
+    "account": "64b8892ba0cf8643e4a4421f"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Billets de cinéma - CineWorld",
+    "amount": -45.5,
+    "balance": 1174.5,
+    "transactionType": "Electronic",
+    "category": "Entertainment",
+    "notes": "Soirée cinéma avec la famille",
+    "account": "64b8892ba0cf8643e4a4421f"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Supermarché Maison Du Bio",
+    "amount": -50,
+    "balance": 1124.5,
+    "transactionType": "Electronic",
+    "category": "Groceries",
+    "notes": "Courses hebdomadaires",
+    "account": "64b8892ba0cf8643e4a4421f"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Essence - Total Station",
+    "amount": -40,
+    "balance": 1084.5,
+    "transactionType": "Electronic",
+    "category": "Fuel",
+    "notes": "Plein de carburant",
+    "account": "64b8892ba0cf8643e4a4421f"
+  },
+  {
+    "user": "64b575b3dddba943706a800e",
+    "description": "Paiement du solde de la carte de crédit",
+    "amount": -900.2,
+    "balance": 184.3,
+    "transactionType": "Electronic",
+    "category": "Payment",
+    "notes": "Paiement du solde restant de la carte",
+    "account": "64b8892ba0cf8643e4a4421f"
+  },
+  {
+    "user": "64b575b3dddba943706a800f",
+    "description": "Dépôt salarial",
+    "amount": 1000,
+    "balance": 1000,
+    "transactionType": "Electronic",
+    "category": "Revenus",
+    "notes": "Salaire du mois de juillet",
+    "account": "64cfffc8044b951008a57a6f"
+  },
+  {
+    "user": "64b575b3dddba943706a800f",
+    "description": "Achat à la boulangerie",
+    "amount": -150,
+    "balance": 850,
+    "transactionType": "Electronic",
+    "category": "Nourriture",
+    "notes": "Pain et croissants pour le petit-déjeuner",
+    "account": "64cfffc8044b951008a57a6f"
+  },
+  {
+    "user": "64b575b3dddba943706a800f",
+    "description": "Remboursement du prêt à Alex",
+    "amount": 192.53,
+    "balance": 1542.53,
+    "transactionType": "Electronic",
+    "category": "Remboursement",
+    "notes": "Alex m'a remboursé pour le prêt du mois dernier",
+    "account": "64cfffc8044b951008a57a6f"
+  },
+  {
+    "user": "64b575b3dddba943706a800f",
+    "description": "Vente de véhicule",
+    "amount": 8542.12,
+    "balance": 8542.12,
+    "transactionType": "Electronic",
+    "category": "Ventes",
+    "notes": "Vente de ma vieille voiture",
+    "account": "64cfffc8044b951008a57a70"
+  },
+  {
+    "user": "64b575b3dddba943706a800f",
+    "description": "Achat d'équipement électronique",
+    "amount": -3000,
+    "balance": 5542.12,
+    "transactionType": "Electronic",
+    "category": "Electronique",
+    "notes": "Achat d'un nouveau PC",
+    "account": "64cfffc8044b951008a57a70"
+  },
+  {
+    "user": "64b575b3dddba943706a800f",
+    "description": "Héritage",
+    "amount": 9879.36,
+    "balance": 15421.48,
+    "transactionType": "Electronic",
+    "category": "Revenus divers",
+    "notes": "Héritage de grand-tante Gertrude",
+    "account": "64cfffc8044b951008a57a70"
+  },
+  {
+    "user": "64b575b3dddba943706a800f",
+    "description": "Remboursement d'ami",
+    "amount": 98.87,
+    "balance": 98.87,
+    "transactionType": "Electronic",
+    "category": "Revenus divers",
+    "notes": "Paul m'a remboursé pour le diner",
+    "account": "64cfffc8044b951008a57a71"
+  },
+  {
+    "user": "64b575b3dddba943706a800f",
+    "description": "Achat de livres",
+    "amount": -50,
+    "balance": 48.87,
+    "transactionType": "Electronic",
+    "category": "Loisirs",
+    "notes": "Achat de nouveaux romans",
+    "account": "64cfffc8044b951008a57a71"
+  },
+  {
+    "user": "64b575b3dddba943706a800f",
+    "description": "Café en terrasse",
+    "amount": -21.52,
+    "balance": 27.35,
+    "transactionType": "Electronic",
+    "category": "Nourriture",
+    "notes": "Pause café avec des amis",
+    "account": "64cfffc8044b951008a57a71"
+  }
+]
