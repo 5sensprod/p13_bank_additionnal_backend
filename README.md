@@ -43,7 +43,7 @@ Your server should now be running at http://locahost:3001 and you will now have 
 
 ## Populated Database Data
 
-Once you run the `populate-db` script, you should have **two users and tree accounts and some transactions by user** in your database:
+Once you run the `populate-db-extra` script, you should have **two users and tree accounts and some transactions by user** in your database:
 
 ### Tony Stark
 
