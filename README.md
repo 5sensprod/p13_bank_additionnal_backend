@@ -36,10 +36,10 @@ npm install
 npm run dev:server
 
 # Populate database with two users, tree accounts by user and transactions
-npm run populate-db
+npm run populate-db-extra
 ```
 
-Your server should now be running at http://locahost:3001 and you will now have two users in your MongoDB database!
+Your server should now be running at http://locahost:3001 and you will now have two users, tree accounts by user and transactions in your MongoDB database!
 
 ## Populated Database Data
 
