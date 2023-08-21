@@ -82,7 +82,7 @@ paths:
           description: Invalid Fields
           schema:
             $ref: '#/definitions/ErrorResponse'
-          
+
         '500':
           description: Internal Server Error
     put:
@@ -259,7 +259,7 @@ paths:
     get:
       security:
         - Bearer: []
-      summary: Retrieve transactions for a specific account
+      summary: Retrieve transactions for a specific account with optional date filters
       tags:
         - Transaction
       parameters:
@@ -268,6 +268,19 @@ paths:
           required: true
           type: string
           description: ID of the account
+        - in: query
+          name: year
+          type: integer
+          description: Year of the transactions to filter. Optional.
+        - in: query
+          name: month
+          type: integer
+          description: Month of the transactions to filter (1-12). Optional.
+        - in: header
+          name: Authorization
+          description: Attach Bearer JWT token
+          required: true
+          type: string
       responses:
         '200':
           description: Successfully retrieved transactions
@@ -294,6 +307,11 @@ paths:
           required: true
           schema:
             $ref: '#/definitions/NewTransaction'
+        - in: header
+          name: Authorization
+          description: Attach Bearer JWT token
+          required: true
+          type: string
       responses:
         '201':
           description: Successfully created transaction
@@ -301,6 +319,7 @@ paths:
           description: Bad Request
         '500':
           description: Server error
+
   /account/{accountId}/transactions/{transactionId}:
     delete:
       security:
@@ -319,6 +338,11 @@ paths:
           required: true
           type: string
           description: ID of the transaction to be deleted
+        - in: header
+          name: Authorization
+          description: Attach Bearer JWT token
+          required: true
+          type: string
       responses:
         '200':
           description: Transaction deleted successfully
@@ -349,6 +373,11 @@ paths:
           required: true
           schema:
             $ref: '#/definitions/UpdateTransaction'
+        - in: header
+          name: Authorization
+          description: Attach Bearer JWT token
+          required: true
+          type: string
       responses:
         '200':
           description: Transaction successfully updated
@@ -456,7 +485,7 @@ definitions:
         example: 201
       message:
         type: string
-        example: "Successfully created account"
+        example: 'Successfully created account'
       body:
         type: object
         properties:
@@ -484,7 +513,7 @@ definitions:
         example: 400
       message:
         type: string
-        example: "ValidationError: title: Path `title` is required."
+        example: 'ValidationError: title: Path `title` is required.'
   Account:
     type: object
     required:
@@ -512,18 +541,18 @@ definitions:
         type: integer
         description: Version key for Mongoose (used for internal tracking).
   AccountResponse:
-      type: object
-      properties:
-        status:
-          type: integer
-          example: 200
-        message:
-          type: string
-          example: "Successfully retrieved accounts"
-        body:
-          type: array
-          items:
-            $ref: '#/definitions/Account'
+    type: object
+    properties:
+      status:
+        type: integer
+        example: 200
+      message:
+        type: string
+        example: 'Successfully retrieved accounts'
+      body:
+        type: array
+        items:
+          $ref: '#/definitions/Account'
   AccountBulk:
     type: object
     required:
@@ -614,10 +643,10 @@ definitions:
     properties:
       notes:
         type: string
-        description: "La note associée à la transaction."
+        description: 'La note associée à la transaction.'
       category:
         type: string
-        description: "La catégorie de la transaction."
+        description: 'La catégorie de la transaction.'
     required:
       - category
       - notes
@@ -626,10 +655,10 @@ definitions:
     properties:
       status:
         type: integer
-        description: "Le code de statut de la réponse."
+        description: 'Le code de statut de la réponse.'
       message:
         type: string
-        description: "Un message décrivant le résultat de la mise à jour."
+        description: 'Un message décrivant le résultat de la mise à jour.'
       body:
         type: object
         properties:
@@ -639,25 +668,25 @@ definitions:
             description: "L'identifiant unique de la transaction."
           description:
             type: string
-            description: "Une description de la transaction."
+            description: 'Une description de la transaction.'
           amount:
             type: number
-            description: "Le montant de la transaction."
+            description: 'Le montant de la transaction.'
           balance:
             type: number
-            description: "Le solde après la transaction."
+            description: 'Le solde après la transaction.'
           transactionType:
             type: string
             enum:
               - Electronic
               # Add other transaction types if any
-            description: "Le type de la transaction."
+            description: 'Le type de la transaction.'
           category:
             type: string
-            description: "La catégorie de la transaction."
+            description: 'La catégorie de la transaction.'
           notes:
             type: string
-            description: "Des notes supplémentaires concernant la transaction."
+            description: 'Des notes supplémentaires concernant la transaction.'
           account:
             type: string
             format: uuid
@@ -668,7 +697,7 @@ definitions:
             description: "La date et l'heure de la transaction."
           __v:
             type: integer
-            description: "La version du document."
+            description: 'La version du document.'
     required:
       - status
       - message
@@ -683,25 +712,25 @@ definitions:
           properties:
             description:
               type: string
-              description: "Une description de la transaction."
+              description: 'Une description de la transaction.'
             amount:
               type: number
-              description: "Le montant de la transaction."
+              description: 'Le montant de la transaction.'
             balance:
               type: number
-              description: "Le solde après la transaction."
+              description: 'Le solde après la transaction.'
             transactionType:
               type: string
               enum:
                 - Electronic
                 - Manual
-              description: "Le type de la transaction."
+              description: 'Le type de la transaction.'
             category:
               type: string
-              description: "La catégorie de la transaction."
+              description: 'La catégorie de la transaction.'
             notes:
               type: string
-              description: "Des notes supplémentaires concernant la transaction."
-        description: "Liste des transactions."
+              description: 'Des notes supplémentaires concernant la transaction.'
+        description: 'Liste des transactions.'
     required:
       - transactions
